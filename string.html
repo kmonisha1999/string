@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match string found</title>
+</head>
+<body>
+<script>
+        var name=prompt("Enter a word")
+		var find=prompt("Enter a Check Letter");
+		var count=0;
+			
+			function string(){
+			for (i=0; i< name.length; i++){
+				if (name[i]== find){
+						count++;
+					}
+				}
+				return count;
+				}
+				var result=string()
+				console.log(result)
+				
+			if(result){
+					document.write("This Word "+ count + " Match");
+				}
+			else{
+					document.write("Word Not Match");
+				}
+		
+
+
+</script>
+</body>
+</html>	
